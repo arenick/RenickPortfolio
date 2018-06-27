@@ -1,0 +1,38 @@
+a:hover {
+    background-color: rgb(58, 226, 162);
+    color: green
+}
+body {font-family: Arial, Helvetica, sans-serif}
+
+h1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+
+img {box-shadow: 5px 5px forestgreen;
+    border-radius: 20px}
+
+form {background: forestgreen;
+    font-size: 80%;
+    padding: 10px;
+    justify-content: center;
+    resize: horizontal;
+    flex: 1
+}
+
+input {
+    flex: 1;
+}
+
+header {text-align: center}
+
+form {text-align: center}
+
+img {flex-wrap: wrap}
+
+nav {text-align: center}
+
+@media query (max width: 600px) {
+  p text-size: 100%
+}
+
+body {
+  background-color: lightgreen;
+}
